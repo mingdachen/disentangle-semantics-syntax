@@ -1,5 +1,5 @@
 # Disentangling Syntax and Semantics in Sentence Representations
-A PyTorch implementation of "A Multi-Task Approach for Disentangling Syntax and Semantics in Sentence Representations" (NAACL 2019)
+A PyTorch implementation of "[A Multi-Task Approach for Disentangling Syntax and Semantics in Sentence Representations](https://ttic.uchicago.edu/~mchen/papers/mchen+etal.naacl19.pdf)" (NAACL 2019)
 
 ## Dependencies
 
