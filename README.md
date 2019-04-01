@@ -14,7 +14,9 @@ A PyTorch implementation of "A Multi-Task Approach for Disentangling Syntax and 
 
 [Training data (tokenized)](https://drive.google.com/drive/folders/1i8cMh7E0TnbrDEw_s9W8LDP_TYNkp4ti?usp=sharing)
 
-[Syntactic evaluataion (based on ParaNMT)](https://drive.google.com/drive/folders/1xhkCPQ4GyQdMdAs4pMrfh_MvqVG3JmhR?usp=sharing)
+[Syntactic evaluataion (based on ParaNMT)](https://drive.google.com/drive/folders/1oVjn_3xIDZbkRm50fSHDZ5nKZtJ_BFyD?usp=sharing)
 
 ## Preprocessing
+
+Coming soon
 
