@@ -72,8 +72,9 @@ def run(e):
                                         "wploss", "dp_loss"])
 
     for epoch in range(start_epoch, e.config.n_epoch):
-        if epoch:
+        if epoch > 1 and train_batch.mega_batch != e.config.mb:
             train_batch.mega_batch = e.config.mb
+            train_batch._reset()
         e.log.info("current mega batch: {}".format(train_batch.mega_batch))
         for it, (s1, m1, s2, m2, t1, tm1, t2, tm2,
                  n1, nm1, nt1, ntm1, n2, nm2, nt2, ntm2, _) in \
