@@ -61,7 +61,7 @@ class tracker:
         """
         self.counter += count
         for name, value in named_values.items():
-            self.values[name] += value.data.cpu().numpy()[0] * count
+            self.values[name] += float(value.data.cpu()) * count
 
     def summarize(self, output=""):
         if output:

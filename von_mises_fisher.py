@@ -134,7 +134,7 @@ class VonMisesFisher(torch.nn.Module):
                 w[accept_mask] = w_[accept_mask]
                 e[accept_mask] = e_[accept_mask]
 
-                bool_mask[accept_mask] = reject[accept_mask]
+                bool_mask[accept_mask] = reject[accept_mask].bool()
 
         return e, w
 
